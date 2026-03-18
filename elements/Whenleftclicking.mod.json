@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"628\" y=\"128\"><field name=\"trigger\">player_left_click_block</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"procedure_retval_logic\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"procedure\">Restrictmining</field></block></value><statement name=\"DO0\"><block type=\"cancel_event\"><next><block type=\"world_send_chat\"><field name=\"color\">#ffffff</field><field name=\"bold\">FALSE</field><field name=\"italic\">FALSE</field><field name=\"underlined\">FALSE</field><value name=\"text\"><block type=\"text_join\"><mutation items=\"1\"></mutation><value name=\"ADD0\"><block type=\"blockat_hardness\"><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value></block></value></block></value></block></next></block></statement></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

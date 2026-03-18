@@ -1,0 +1,13 @@
+build/
+.gradle/
+run/
+.mcreator/workspaceBackups/
+.mcreator/generatorGradleCache
+.mcreator/modElementThumbnails/
+.eclipse/
+.idea/
+*.class
+*.jar
+*.iml
+.DS_Store
+Thumbs.db

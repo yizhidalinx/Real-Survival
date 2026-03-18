@@ -1,0 +1,255 @@
+{
+  "mod_elements": [
+    {
+      "name": "Restrictmining",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restrictmining",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/realsurvival/procedures/RestrictminingProcedure.java"
+        ]
+      },
+      "path": "~/Basic Rules"
+    },
+    {
+      "name": "Whenleftclicking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whenleftclicking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/realsurvival/procedures/WhenleftclickingProcedure.java"
+        ]
+      },
+      "path": "~/Basic Rules"
+    },
+    {
+      "name": "PLAYER",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/realsurvival/procedures/PLAYERProcedure.java"
+        ]
+      },
+      "path": "~/Basic Rules"
+    },
+    {
+      "name": "Plusrange",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plusrange",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/realsurvival/procedures/PlusrangeProcedure.java"
+        ]
+      },
+      "path": "~/Basic Rules"
+    },
+    {
+      "name": "Debug",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/realsurvival/procedures/DebugProcedure.java"
+        ]
+      },
+      "path": "~/Basic Rules"
+    },
+    {
+      "name": "Dubug",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dubug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/realsurvival/client/screens/DubugOverlay.java"
+        ]
+      },
+      "path": "~/Basic Rules"
+    },
+    {
+      "name": "Stone",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/realsurvival/procedures/StoneProcedure.java"
+        ]
+      },
+      "path": "~/Stone"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "player_block_break_speed",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.1"
+    },
+    {
+      "name": "player_block_interaction_range",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.5"
+    },
+    {
+      "name": "player_entity_interaction_range",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.2"
+    },
+    {
+      "name": "play",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/realsurvival/RealSurvivalMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/realsurvival/network/RealSurvivalModVariables.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Basic Rules",
+        "children": []
+      },
+      {
+        "name": "Stone",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "real_survival",
+    "modName": "Real Survival",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.realsurvival"
+  },
+  "mcreatorVersion": 202500345720
+}
